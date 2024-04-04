@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "NordBook";
+    src: url("/assets/fonts/Nord-Book.ttf"), format('truetype');
+
+}
+
+@font-face {
+    font-family: "NordLight";
+    src: url("/assets/fonts/Nord-Light.ttf"), format('truetype');
+
+}
+
+
+@font-face {
+    font-family: "cuda";
+    src: url("/assets/fonts/CUDA.ttf"), format('truetype');
+
+}
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+    color: whitesmoke;
+
+    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    font-family: NordBook, Courier, monospace;
+    
+}
+
+.img-container {
+	width: 40vw;
+	height: 100vh;
+}
+
+.hero-img {
+	width: 100%;
+	height: 100%;
+}
+
+.hero-img {
+	background-image: url("/assets/images/milkyway-on-night-sky-2023-11-27-05-23-54-utc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-text-container {
+	display: flex;
+    background-color: rgba(33, 33, 33, 0.60);
+	justify-content:center;
+    flex-wrap: wrap;
+    gap: 10px;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	top: 20%;
+	width: 100%;
+}
+
+.hero-text-container p {
+    font-family: 'cuda';
+	color: whitesmoke;
+	font-size: 2rem;
+}
+
+.logo {
+	width: 100px;
+}
+
+.signup {
+    background-color: #212121;
+    height: 100vh;
+    width: 100%;
+    padding-left: 40px;
+}
+
+
+
+
