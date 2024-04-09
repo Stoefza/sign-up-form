@@ -10,29 +10,57 @@
 		<div class="main-container">
 			<div class="img-container">
 				<div class="hero-img">
-                    <div class="hero-text-container">
-                        <img src="/assets/images/spacecowexp.png" alt="" class="logo">
-                        <p>SpaceCow</p>
-                    </div>
-                </div>			
+					<div class="hero-text-container">
+						<img src="/assets/images/spacecowexp.png" alt="" class="logo" />
+						<p>SpaceCow.</p>
+					</div>
+				</div>
 			</div>
-			<div class="signup">
-                <div class="signup-text">
-                    <p>At Space Cow Industries, we explore the universe 
-                        with innovative technology. Join us to experience 
-                        the Milky Way like never before!</p>
-                    <p>Sign up below and join the herd</p>
-                </div>
-                <div class="signup-form">
-                    <form action="/wingwang" method="post">
+			<div class="signup-container">
+				<div class="signup-text">
+					<p>
+						At Space Cow Industries, we explore the universe with innovative technology. Join us to experience the Milky
+						Way like never before!
+					</p>
+					<p>Sign up below and join the herd</p>
+				</div>
+				<div class="signup-form">
+					<p>Do it now!</p>
 
-                    </form>
-                </div>
-                <div class="signup-actions">
-                    <button>sdfgsdfg</button>
-                    <p>Already have an account? <a href="">Log in</a></p> 
-                </div>
-            </div>
+					<form action="/wingwang" method="post" autocomplete="off">
+						<div class="input-field">
+							<label for="first_name">FIRST NAME</label>
+							<input type="text" id="first_name" name="first_name" />
+						</div>
+						<div class="input-field">
+							<label for="last_name">LAST NAME</label>
+							<input type="text" id="last_name" name="last_name" />
+						</div>
+						<div class="input-field">
+							<label for="email">EMAIL</label>
+							<input type="email" id="email" name="email" />
+						</div>
+						<div class="input-field">
+							<label for="phone_number">PHONE NUMBER</label>
+							<input type="text" inputmode="numeric" pattern="^[0-9]*$" id="phone_number" name="phone_number" />
+						</div>
+						<div class="input-field">
+							<label for="password_1">PASSWORD</label>
+							<input type="password" id="password_1" name="password_1" class="password-input" />
+						</div>
+						<div class="input-field">
+							<label for="password_2">CONFIRM PASSWORD</label>
+							<input type="password" id="password_2" name="password_2" class="password-input" />
+						</div>
+					</form>
+					<p class="pw-text"></p>
+				</div>
+				<div class="signup-actions">
+					<button type="submit" class="submit-btn">Create Account</button>
+					<p>Already have an account? <a class="login" href="">Log in</a></p>
+				</div>
+			</div>
 		</div>
+		<script src="/script.js"></script>
 	</body>
 </html>
