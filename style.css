@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "cuda";
-    src: url("/assets/fonts/CUDA.ttf"), format('truetype');
+    src: url("../assets/fonts/CUDA.ttf"), format('truetype');
 
 }
 
@@ -46,7 +46,7 @@
 }
 
 .hero-img {
-	background-image: url("/assets/images/milkyway-on-night-sky-2023-11-27-05-23-54-utc.jpg");
+	background-image: url("../assets/images/milkyway-on-night-sky-2023-11-27-05-23-54-utc.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
